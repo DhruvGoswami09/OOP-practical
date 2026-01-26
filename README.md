@@ -1,0 +1,2 @@
+# OOP-practical
+GTU practicals
