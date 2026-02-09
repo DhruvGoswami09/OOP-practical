@@ -39,13 +39,13 @@ public class Mall {
                 bg.generateBill(t);
                 break;
                 
-            case 2:
+            case 1:
                 System.out.print("Enter Flat Discount (Rs): ");
                 int d = sc.nextInt();
                 bg.generateBill(t, d);
                 break;
                 
-            case 3:
+            case 2:
                 System.out.print("Enter Discount %: ");
                 double p = sc.nextDouble();
                 bg.generateBill(t, p);
@@ -55,4 +55,3 @@ public class Mall {
                 System.out.println("Invalid Choice");
         }
     }
-}
