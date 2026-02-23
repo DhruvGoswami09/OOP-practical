@@ -1,11 +1,11 @@
-import java.util.Scanner;
+import java.util.*;
 
 class University {
     static int totalStudents = 0;
     static String universityName;
     
     static {
-        universityName = "GTU University";
+        universityName = "Gujarat Technological University";
         System.out.println("Static block executed: " + universityName);
     }
     
